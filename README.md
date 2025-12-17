@@ -66,16 +66,6 @@ The UX is inspired by production ecommerce platforms like **CaratLane, Tanishq, 
 
 https://gotiecommercekilangi.vercel.app/
 
-### Recommended Platforms
-
-* **Vercel** (Preferred)
-* Netlify
-* GitHub Pages
-
-No build command or framework configuration is required.
-
----
-
 ## 🧪 Performance & UX Notes
 
 * Lightweight assets

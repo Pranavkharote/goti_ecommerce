@@ -9,7 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Kilangi Jewellery</title>
 
@@ -25,11 +31,35 @@
   </head>
   <body>
     <!-- HEADER -->
+    <div class="top-bar">
+      Step into Sparkle – Pure Gold & Silver Await
+      <div class="top-brand">
+        <i class="fa-brands fa-instagram"></i
+        ><i class="fa-brands fa-facebook"></i>
+      </div>
+    </div>
     <header class="header">
       <div class="header-top container">
-        <input class="search" type="text" placeholder="Search for Earrings.." />
+        <div class="search">
+          <input
+            class="input"
+            type="text"
+            placeholder="Search for Earrings.."
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
         <div class="logo">KILANGI</div>
-        <div class="icons"><i class="fa-regular fa-heart"></i><i class="fa-regular fa-user"></i> <i class="fa-solid fa-bag-shopping"></i></div>
+        <div class="icons">
+          <i class="fa-regular fa-heart"></i><i class="fa-regular fa-user"></i>
+          <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+      </div>
+
+      <div class="bestseller-tabs">
+        <button class="tab">Bestsellers</button>
+        <button class="tab">Earrings</button>
+        <button class="tab">Rings</button>
+        <button class="tab">Necklace</button>
       </div>
 
       <nav class="nav">
@@ -117,7 +147,9 @@
         </div>
       </div>
 
-      <button class="">Shop Bestseller  <i class="fa-solid fa-arrow-right"></i></button>
+      <button class="">
+        Shop Bestseller <i class="fa-solid fa-arrow-right"></i>
+      </button>
     </section>
 
     <section class="recently-viewed">
@@ -127,8 +159,8 @@
         <!-- Card 1 -->
         <div class="product-card">
           <img
-            src="./assets/images/bracelet.jpg"
-            alt="Twisted Petal Gold Bracelet"
+            src="./assets/rings/bangles.jpg"
+            alt="Twisted Petal Gold Bangles"
           />
           <p class="title">TWISTED PETAL GOLD BRACELET</p>
           <p class="price">₹79904 <span class="old">₹99904</span></p>
@@ -137,7 +169,7 @@
         <!-- Card 2 -->
         <div class="product-card">
           <img
-            src="./assets/images/bracelet.jpg"
+            src="./assets/rings/ring3.jpg"
             alt="Twisted Petal Gold Bracelet"
           />
           <p class="title">TWISTED PETAL GOLD BRACELET</p>
@@ -147,7 +179,7 @@
         <!-- Card 3 -->
         <div class="product-card">
           <img
-            src="./assets/images/bracelet.jpg"
+            src="./assets/collection/mariano-rivas-ZYet8yoepik-unsplash.jpg"
             alt="Twisted Petal Gold Bracelet"
           />
           <p class="title">TWISTED PETAL GOLD BRACELET</p>
@@ -157,7 +189,7 @@
         <!-- Card 4 -->
         <div class="product-card">
           <img
-            src="./assets/images/bracelet.jpg"
+            src="./assets/collection/One Gram Polish Bangles_ One pair 285 + shipping….jpg"
             alt="Twisted Petal Gold Bracelet"
           />
           <p class="title">TWISTED PETAL GOLD BRACELET</p>
@@ -175,7 +207,10 @@
       <div class="gift-layout">
         <!-- Left Image -->
         <div class="gift-left">
-          <img src="./assets/images/hero-right.jpg" alt="Jewellery Gift" />
+          <img
+            src="./assets/collection/eric-fung-Z0GZrpwcc5Y-unsplash (1).jpg"
+            alt="Jewellery Gift"
+          />
         </div>
 
         <!-- Right Grid -->
@@ -186,17 +221,23 @@
           </div>
 
           <div class="gift-card">
-            <img src="./assets/images/bracelet.jpg" alt="" />
+            <img
+              src="./assets/collection/sama-hosseini-h_ssRPj8UZo-unsplash.jpg"
+              alt=""
+            />
             <button>Shop Under ₹20000</button>
           </div>
 
           <div class="gift-card">
-            <img src="./assets/images/bracelet.jpg" alt="" />
+            <img src="./assets/collection/pc1.jpg" alt="" />
             <button>Shop Under ₹30000</button>
           </div>
 
           <div class="gift-card">
-            <img src="./assets/images/bracelet.jpg" alt="" />
+            <img
+              src="./assets/collection/samar-ahmad--nKCbZlOHek-unsplash (1).jpg"
+              alt=""
+            />
             <button>E-Gift Cards</button>
           </div>
         </div>
@@ -236,37 +277,48 @@
 
       <div class="collection-row">
         <div class="collection-item">
-          <img src="./assets/images/bracelet.jpg" alt="Rings" />
-          <p>Rings</p>
-        </div>
-
-        <div class="collection-item">
-          <img src="./assets/images/bracelet.jpg" alt="Earrings" />
-          <p>Earrings</p>
-        </div>
-
-        <div class="collection-item">
-          <img src="./assets/images/bracelet.jpg" alt="Pendants" />
-          <p>Pendants</p>
-        </div>
-
-        <div class="collection-item">
-          <img src="./assets/images/bracelet.jpg" alt="Bracelets" />
-          <p>Bracelets</p>
-        </div>
-
-        <div class="collection-item">
-          <img src="./assets/images/bracelet.jpg" alt="Necklace" />
+          <img
+            src="./assets/collection/eric-fung-Z0GZrpwcc5Y-unsplash (1).jpg"
+            alt="Rings"
+          />
           <p>Necklace</p>
         </div>
 
         <div class="collection-item">
-          <img src="./assets/images/bracelet.jpg" alt="Bangles" />
+          <img
+            src="./assets/collection/mariano-rivas-ZYet8yoepik-unsplash.jpg"
+            alt="Earrings"
+          />
           <p>Bangles</p>
         </div>
 
         <div class="collection-item">
-          <img src="./assets/images/bracelet.jpg" alt="Accessories" />
+          <img
+            src="./assets/collection/nataliya-melnychuk-5ngCICAXiH0-unsplash.jpg"
+            alt="Bracelets"
+          />
+          <p>Ear Rings</p>
+        </div>
+
+        <div class="collection-item">
+          <img
+            src="./assets/collection/pexels-esra-afsar-123882149-14509806.jpg"
+            alt="Accessories"
+          />
+          <p>Rings</p>
+        </div>
+        <div class="collection-item">
+          <img
+            src="./assets/collection/pexels-brunocastelli-5441007.jpg"
+            alt="Necklace"
+          />
+          <p>Necklace</p>
+        </div>
+        <div class="collection-item">
+          <img
+            src="./assets/collection/pexels-cottonbro-6154081.jpg"
+            alt="Bangles"
+          />
           <p>Accessories</p>
         </div>
       </div>
@@ -284,7 +336,10 @@
       <div class="gifts-grid">
         <!-- Card 1 -->
         <div class="gift-card">
-          <img src="./assets/rings/oscar-ramirez-rl7doKRxZuU-unsplash.jpg" alt="Birthday Gifts" />
+          <img
+            src="./assets/rings/oscar-ramirez-rl7doKRxZuU-unsplash.jpg"
+            alt="Birthday Gifts"
+          />
           <h3>BIRTHDAY</h3>
           <p>
             Celebrate their special day with a timeless piece that shines as
@@ -295,7 +350,10 @@
 
         <!-- Card 2 -->
         <div class="gift-card">
-          <img src="./assets/rings/edgar-soto-o87CUS_uDiQ-unsplash.jpg" alt="Anniversary Gifts" />
+          <img
+            src="./assets/rings/edgar-soto-o87CUS_uDiQ-unsplash.jpg"
+            alt="Anniversary Gifts"
+          />
           <h3>ANNIVERSARY</h3>
           <p>
             Mark your love story with jewellery that symbolizes everlasting
@@ -325,7 +383,10 @@
       <div class="ethos-container">
         <!-- Left Image -->
         <div class="ethos-image">
-          <img src="./assets/rings/sanju-pandita-P56Q3m6MjNI-unsplash.jpg" alt="Jewellery Ethos" />
+          <img
+            src="./assets/rings/sanju-pandita-P56Q3m6MjNI-unsplash.jpg"
+            alt="Jewellery Ethos"
+          />
         </div>
 
         <!-- Right Content -->
@@ -356,7 +417,10 @@
       <div class="future-container">
         <!-- Left Visual -->
         <div class="future-image">
-          <img src="./assets/icons/pngwing.com (1).png" alt="Lab Grown Diamonds" />
+          <img
+            src="./assets/icons/pngwing.com (1).png"
+            alt="Lab Grown Diamonds"
+          />
         </div>
 
         <!-- Right Content -->
